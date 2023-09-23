@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: otoma;
+    src: url(../fonts/OtomanopeeOne-Regular.ttf)
+}
+
+#main {
+    font-family: otoma;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
